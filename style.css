@@ -1,0 +1,43 @@
+header {
+  #mainTitle {
+    font-size: calc(1.275rem + 0.3vw) !important;
+    font-weight: 700;
+  }
+  #searchBar {
+    border-radius: 5rem;
+    font-weight: 600;
+  }
+}
+#mainBody {
+  #pop-up {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1050;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.825);
+  }
+  #pop-up .container {
+    top: 50%;
+    left: 50%;
+    width: fit-content;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    transform: 0.5s;
+  }
+  #pop-up form div {
+    margin: 0.3rem;
+  }
+  #pop-up form button {
+    width: calc(10rem + 0.3vw) !important;
+    margin: 0.5rem;
+    font-weight: 600;
+  }
+  #tblBody tr:hover {
+    cursor: pointer;
+  }
+}
